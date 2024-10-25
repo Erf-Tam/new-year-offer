@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+main{
+    margin: 0 120px 120px 120px;
+}
 /* Shared Styles */
-
 .primary-font {
     font-family: "Merriweather", serif;
 }
@@ -14,6 +15,21 @@
 .secondary-font {
     font-family: "Inter", serif;
 }
+
+.text-white{
+    color: #ffffff;
+}
+.text-black{
+    color: #070211;
+}
+.text-red{
+    color: #FF0000;
+}
+.text-gray{
+    color: #07021199;
+}
+
+
 
 /* Hero Section style */
 #hero-banner {
