@@ -80,8 +80,11 @@
 #discount-section{
     margin: 120px 380px 0 380px;
 }
+.discount-content{
+    max-width: 780px;
+}
 .discount {
-    font-size: 82px;
+    font-size: 80px;
     font-weight: 700;
     line-height: 107px;
     margin-bottom: 40px;
@@ -95,7 +98,8 @@
 }
 
 .discount-categories {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 58px;
+    margin-bottom: 48px;
 }
