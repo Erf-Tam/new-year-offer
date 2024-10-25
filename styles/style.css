@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Shared Styles */
 
-.primary-font{
-   font-family: "Merriweather", serif;
+.primary-font {
+    font-family: "Merriweather", serif;
 }
-.secondary-font{
+
+.secondary-font {
     font-family: "Inter", serif;
 }
 
 /* Hero Section style */
-#hero{
+#hero-banner {
     height: 600px;
-    background-image: url('../assets/images/Banner\ Image.png');
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),
+            rgba(7, 2, 17, 0) 100%),
+             url('../assets/images/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
+    border-radius: 16px;
 }
