@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-main {
-    margin: 0 120px 120px 120px;
-}
-
 /* Shared Styles */
 .primary-font {
     font-family: "Merriweather", serif;
@@ -33,6 +29,15 @@ main {
 .text-gray {
     color: #07021199;
 }
+.text-center{
+    text-align: center;
+}
+.section-margin{
+    margin: 0 120px;
+}
+.m-top{
+    margin-top: 120px;
+}
 
 
 
@@ -50,13 +55,14 @@ main {
 }
 .banner-content{
     width: 630px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0px auto;
+    padding: 170px 0;
 }
 .banner-greeting {
     font-size: 28px;
     font-weight: 400;
     line-height: 40px;
+    margin-bottom: 16px;
 }
 
 .banner-title {
