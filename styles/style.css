@@ -60,7 +60,7 @@
 
 .banner-content {
     width: 630px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 170px 0;
 }
 
@@ -107,7 +107,7 @@
     margin-bottom: 48px;
 }
 
-/* Party Section */
+/* Party Section Styles */
 
 #party-section {
     height: 600px;
@@ -152,6 +152,43 @@
     text-transform: uppercase;
     padding-left: 30px;
 }
-.party-year{
+
+.party-year {
     padding: 70px 0px;
+}
+
+/* Party Place Section Styles */
+
+#party-place {
+    height: 480px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.party-place-content {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.party-button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: #FF0000;
+    padding: 16px 28px 16px 28px;
+    border-radius: 8px;
+    margin-top: 36px;
+}
+.party-button a{
+    text-decoration: none;
 }
