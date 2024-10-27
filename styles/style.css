@@ -198,7 +198,8 @@
 
 #offer-section {
     display: flex;
-    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .offer-box {
@@ -232,9 +233,19 @@
     text-align: left;
 }
 
+.offer-section-friends {
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+}
+
+.offer-section-friends img {
+    padding: 25px;
+    max-width: 340px;
+}
+
 .year-box {
     max-width: 230px;
-    padding-left: 40px;
+    padding-top: 85px;
 }
 
 .offer-section-year {
@@ -255,6 +266,7 @@
     text-align: left;
     margin-bottom: 35px;
 }
-.year-box img{
+
+.year-box img {
     max-width: 120px;
 }
