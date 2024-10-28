@@ -301,7 +301,8 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.sale-banner{
+
+.sale-banner {
     height: 660px;
     margin-top: 60px;
     background-image: url('../assets/images/Rectangle\ 2.png');
@@ -311,9 +312,42 @@
     display: flex;
     justify-content: space-around;
 }
-.gift-box{
+
+.gift-box {
     width: 620px;
 }
-.discount-box{
+
+.discount-box {
     padding-top: 100px;
+}
+
+/* Portfolio Section Styles */
+.portfolio-content{
+    width: 720px;
+}
+.portfolio-info {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.portfolio-title {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
