@@ -322,9 +322,10 @@
 }
 
 /* Portfolio Section Styles */
-.portfolio-content{
+.portfolio-content {
     width: 720px;
 }
+
 .portfolio-info {
     font-size: 18px;
     font-weight: 500;
@@ -351,13 +352,22 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.portfolio-gallary{
+
+.portfolio-gallary {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
 }
-.portfolio-gallary img{
+
+.portfolio-gallary img {
     max-width: 400px;
+}
+
+/* Newsletter Section Styles */
+#newsletter-section {
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
