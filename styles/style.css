@@ -301,3 +301,19 @@
     letter-spacing: 0%;
     text-align: center;
 }
+.sale-banner{
+    height: 660px;
+    margin-top: 60px;
+    background-image: url('../assets/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+}
+.gift-box{
+    width: 620px;
+}
+.discount-box{
+    padding-top: 100px;
+}
