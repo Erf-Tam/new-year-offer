@@ -433,3 +433,9 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* Footer Section Styles */
+#footer-section{
+    height: 600px;
+    background: rgb(7, 2, 17);
+}
