@@ -125,6 +125,9 @@
     max-width: 690px;
     padding: 130px 0px 140px 130px;
 }
+.party-content a{
+    text-decoration: none;
+}
 
 .party-title {
     font-size: 56px;
@@ -434,14 +437,16 @@
 
 /* Footer Section Styles */
 #footer-section {
-    height: 600px;
+    height: 280px;
     background: rgb(7, 2, 17);
-    padding: 120px;
+    padding: 140px 120px;
 }
-#footer-section hr{
+
+#footer-section hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
     margin: 40px 0;
 }
+
 .footer-info {
     display: flex;
     justify-content: space-between;
@@ -458,18 +463,29 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.contact{
+
+.contact {
     padding-right: 130px;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.social-icons img{
+
+.social-icons img {
     width: 60px;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.copyright a {
+    text-decoration: none;
 }
