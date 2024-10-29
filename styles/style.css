@@ -461,4 +461,11 @@
 .contact{
     padding-right: 130px;
 }
-
+.social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-icons img{
+    width: 60px;
+}
